@@ -68,12 +68,6 @@
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
-                <groupId>com.mapr</groupId>
-                <artifactId>mapr-java-utils</artifactId>
-                <classifier>sources</classifier>
-                <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.mapr.fs</groupId>
                 <artifactId>maprbuildversion</artifactId>
                 <version>${mapr.version}</version>
@@ -84,26 +78,8 @@
                 <version>${mapr.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mapr.fs</groupId>
-                <artifactId>libprotodefs</artifactId>
-                <classifier>sources</classifier>
-                <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.mapr.hadoop</groupId>
                 <artifactId>maprfs-jni</artifactId>
-                <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.hadoop</groupId>
-                <artifactId>maprfs-jni</artifactId>
-                <version>${mapr.version}</version>
-                <classifier>tests</classifier>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.hadoop</groupId>
-                <artifactId>maprfs-jni</artifactId>
-                <classifier>sources</classifier>
                 <version>${mapr.version}</version>
             </dependency>
             <dependency>
