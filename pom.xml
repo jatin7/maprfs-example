@@ -62,12 +62,6 @@
                 <version>${mapr.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mapr</groupId>
-                <artifactId>mapr-java-utils</artifactId>
-                <version>${mapr.version}</version>
-                <classifier>tests</classifier>
-            </dependency>
-            <dependency>
                 <groupId>com.mapr.fs</groupId>
                 <artifactId>maprbuildversion</artifactId>
                 <version>${mapr.version}</version>
@@ -89,31 +83,7 @@
             </dependency>
             <dependency>
                 <groupId>com.mapr.hadoop</groupId>
-                <artifactId>maprfs-core</artifactId>
-                <classifier>tests</classifier>
-                <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.hadoop</groupId>
-                <artifactId>maprfs-core</artifactId>
-                <classifier>sources</classifier>
-                <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.hadoop</groupId>
                 <artifactId>hadoop2</artifactId>
-                <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.hadoop</groupId>
-                <artifactId>hadoop2</artifactId>
-                <version>${mapr.version}</version>
-                <classifier>tests</classifier>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.hadoop</groupId>
-                <artifactId>hadoop2</artifactId>
-                <classifier>sources</classifier>
                 <version>${mapr.version}</version>
             </dependency>
             <dependency>
@@ -127,21 +97,9 @@
                 <version>${mapr.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mapr.hadoop</groupId>
-                <artifactId>maprfs</artifactId>
-                <version>${mapr.version}</version>
-                <classifier>tests</classifier>
-            </dependency>
-            <dependency>
                 <groupId>com.mapr.db</groupId>
                 <artifactId>maprdb</artifactId>
                 <version>${mapr.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr.db</groupId>
-                <artifactId>maprdb</artifactId>
-                <version>${mapr.version}</version>
-                <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>com.mapr.db</groupId>
@@ -169,12 +127,6 @@
                 <version>${mapr.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mapr.util</groupId>
-                <artifactId>maprutil</artifactId>
-                <version>${mapr.version}</version>
-                <classifier>sources</classifier>
-            </dependency>
-            <dependency>
                 <groupId>com.mapr.fs</groupId>
                 <artifactId>mapr-hbase</artifactId>
                 <version>${mapr.version}</version>
@@ -184,7 +136,6 @@
                 <artifactId>gateway</artifactId>
                 <version>${mapr.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.mapr.util</groupId>
                 <artifactId>central-logging</artifactId>
@@ -316,12 +267,6 @@
                 <groupId>org.apache.hbase</groupId>
                 <artifactId>hbase-server</artifactId>
                 <version>${hbase.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.hbase</groupId>
-                <artifactId>hbase-server</artifactId>
-                <version>${hbase.version}</version>
-                <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>org.apache.hbase</groupId>
@@ -732,24 +677,6 @@
                 <version>${trove.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-                <version>${slf4j.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>jcl-over-slf4j</artifactId>
-                <version>${slf4j.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>log4j</groupId>
-                <artifactId>apache-log4j-extras</artifactId>
-                <version>${log4j.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
                 <version>${logback.version}</version>
@@ -760,94 +687,6 @@
                 <artifactId>logback-core</artifactId>
                 <version>${logback.version}</version>
                 <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.mapr</groupId>
-                <artifactId>mapr-test-annotations</artifactId>
-                <version>${mapr.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.codehaus.plexus</groupId>
-                <artifactId>plexus-classworlds</artifactId>
-                <version>2.4</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.12</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.mockito</groupId>
-                <artifactId>mockito-all</artifactId>
-                <version>1.8.5</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.google.code.java-allocation-instrumenter</groupId>
-                <artifactId>java-allocation-instrumenter</artifactId>
-                <version>3.0</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.specs2</groupId>
-                <artifactId>specs2-core_${mapr.scala.compat.version}</artifactId>
-                <version>${mapr.specs2.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.specs2</groupId>
-                <artifactId>specs2-junit_${mapr.scala.compat.version}</artifactId>
-                <version>${mapr.specs2.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.scalatest</groupId>
-                <artifactId>scalatest_${mapr.scala.compat.version}</artifactId>
-                <version>${mapr.scalatest.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.openjdk.jol</groupId>
-                <artifactId>jol-core</artifactId>
-                <version>0.4</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.drill</groupId>
-                <artifactId>drill-common</artifactId>
-                <version>${ojai-drill.version}</version>
-                <classifier>tests</classifier>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.drill.exec</groupId>
-                <artifactId>drill-java-exec</artifactId>
-                <version>${ojai-drill.version}</version>
-                <classifier>tests</classifier>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.drill.contrib</groupId>
-                <artifactId>drill-format-mapr</artifactId>
-                <version>${ojai-drill.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.drill.contrib</groupId>
-                <artifactId>drill-format-mapr</artifactId>
-                <classifier>tests</classifier>
-                <version>${ojai-drill.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.drill.contrib</groupId>
-                <artifactId>drill-storage-hbase</artifactId>
-                <classifier>tests</classifier>
-                <version>${ojai-drill.version}</version>
-                <scope>test</scope>
             </dependency>
     </dependencies>
 
