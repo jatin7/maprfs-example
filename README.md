@@ -9,12 +9,15 @@ There are two possible ways to access files on the maprfs filesystem on a cluste
 
 _1) NFS_
 ===
+
 To access the filesystem using NFS, please follow the document - "Accessing Data with NFS" on our documentation portal. This method allows the use of any generic Linux application to access files on the cluster as though it were on the local filesystem.
 
 _2) MaprFS client._
 ===
+
 MaprFS  also allows access to the cluster using the standard "hadoop fs <arguments>" commands the same way as used in HDFS. The MapR FS client also allows you to use the Hadoop API in a fully compatible way.
 The client needs to be configured to access the maprfs cluster as described in this document  "Setting Up the Client". Once done, you can use a URL of the form maprfs:///path/of/file to access the cluster filesystem. It is also possible to use a URL of the form hdfs:///path/of/file since, by default, maprfs is configured as the implementation for hdfs.
+
 Usage
 ===
 
