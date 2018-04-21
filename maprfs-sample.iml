@@ -14,6 +14,7 @@
     <orderEntry type="library" name="Maven: com.mapr.fs:libprotodefs:6.0.0-mapr" level="project" />
     <orderEntry type="library" name="Maven: com.mapr.hadoop:maprfs-jni:6.0.0-mapr" level="project" />
     <orderEntry type="library" name="Maven: com.mapr.hadoop:maprfs-core:6.0.0-mapr" level="project" />
+    <orderEntry type="library" name="Maven: com.tdunning:json:1.8" level="project" />
     <orderEntry type="library" name="Maven: com.mapr.hadoop:hadoop2:6.0.0-mapr" level="project" />
     <orderEntry type="library" name="Maven: com.mapr.util:baseutils:6.0.0-mapr" level="project" />
     <orderEntry type="library" name="Maven: com.mapr.hadoop:maprfs:6.0.0-mapr" level="project" />
@@ -149,7 +150,7 @@
     <orderEntry type="library" name="Maven: net.jpountz.lz4:lz4:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.shell:spring-shell:1.2.0-mapr-1710" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.tdunning:json:1.8" level="project" />
+    <orderEntry type="library" name="Maven: com.jatin:json:1.8" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.collections:google-collections:1.0" level="project" />
